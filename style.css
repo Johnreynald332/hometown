@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+.image{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/monas.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image p{
+    width: 400px;
+    background-color: #5882E8;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.image h1{
+    background-color: #0F42C0;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.activities{
+    display: flex;
+    justify-content: center;
+    background-color: #F8EADC;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+}
+.act-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 20px;
+}
+
+.item-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.item-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.item-3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
